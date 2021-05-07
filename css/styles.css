@@ -159,21 +159,23 @@ sup {
 }
 
 a {
-  color: #002E66;
-  text-decoration: none;
-  background-color: transparent;
+  color: yellow;
+  text-decoration: blink;
+  background-color: red;
+  font-weight: bolder;
+  
 }
 a:hover {
-  color: #000c1a;
+  color: white;
   text-decoration: underline;
 }
 
 a:not([href]):not([class]) {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 a:not([href]):not([class]):hover {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
@@ -2883,7 +2885,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #002E66;
+  color: #F10E12;
   text-decoration: none;
 }
 .btn-link:hover {
